@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aryavarta Kala Dharohar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #000;
+      color: #ffd700;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #ffd700;
+    }
+    header img {
+      width: 150px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    nav {
+      background-color: #222;
+      padding: 10px 0;
+      text-align: center;
+      border-bottom: 1px solid #ffd700;
+    }
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/5/5a/Warli_tribal_art_India.jpg') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffd700;
+      text-shadow: 2px 2px 6px #000;
+      font-size: 2em;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: linear-gradient(to bottom right, #000000, #1a0e00);
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+    h2, h3 {
+      color: #ffd700;
+      margin-bottom: 10px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .product-grid, .gallery-grid, .team-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .product-item, .gallery-item, .team-member {
+      width: 300px;
+      background-color: #111;
+      border: 1px solid #444;
+      border-radius: 8px;
+      padding: 15px;
+      color: #ffd700;
+    }
+    .product-item img, .gallery-item img, .team-member img {
+      width: 100%;
+      border-radius: 4px;
+    }
+    .newsletter {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #111;
+      border-top: 1px solid #ffd700;
+      margin-top: 30px;
+    }
+    .newsletter input {
+      padding: 10px;
+      width: 250px;
+      border-radius: 4px;
+      border: 1px solid #ffd700;
+      background-color: #000;
+      color: #ffd700;
+    }
+    .newsletter button {
+      padding: 10px 15px;
+      margin-left: 10px;
+      background-color: #ffd700;
+      color: #000;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .newsletter button:hover {
+      background-color: #e6c200;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ffd700;
+      border-radius: 4px;
+      background-color: #000;
+      color: #ffd700;
+    }
+    .contact-form button {
+      background-color: #ffd700;
+      color: #000;
+      border: none;
+      padding: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .contact-form button:hover {
+      background-color: #e6c200;
+    }
+    footer {
+      background-color: #111;
+      color: #ffd700;
+      text-align: center;
+      padding: 20px;
+      border-top: 2px solid #ffd700;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ChatGPT Image Jun 22, 2025 at 11_12_58 AM.png" alt="Aryavarta Logo">
+    <h1>Aryavarta Kala Dharohar</h1>
+    <p>Where Tradition Breathes Through Art</p>
+  </header>
+  
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#work">Our Work</a>
+    <a href="#store">Collections</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#team">Team</a>
+    <a href="#pramud">PRAMUD</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Celebrating Indian Heritage and Culture
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Aryavarta Kala Dharohar is committed to the conservation, promotion, and research of India's vibrant art traditions. We collaborate with artisans, scholars, and collectors to bring timeless culture to the modern world.</p>
+  </section>
+
+  <section id="work">
+    <h2>Our Work</h2>
+    <p>We work across two domains: art sales and cultural research. Our collections include hand-crafted items, paintings, and replicas. Our researchers are documenting and publishing India's vast intangible heritage for future generations.</p>
+  </section>
+
+  <section id="store">
+    <h2>Collections</h2>
+    <p>Explore our featured items:</p>
+    <div class="product-grid">
+      <div class="product-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Terracotta_artwork_West_Bengal.jpg" alt="Terracotta Sculpture">
+        <h3>Terracotta Sculpture</h3>
+        <p>Handcrafted clay sculpture from West Bengal.</p>
+      </div>
+      <div class="product-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Pattachitra_Workshop.jpg" alt="Pattachitra Painting">
+        <h3>Pattachitra Painting</h3>
+        <p>Traditional Odisha scroll painting on palm leaf.</p>
+      </div>
+      <div class="product-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Indian_brass_lamp.jpg" alt="Brass Lamp">
+        <h3>Brass Oil Lamp</h3>
+        <p>Authentic South Indian deepam for rituals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>Discover glimpses of our art events, exhibitions, and curated collections:</p>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Pattachitra_painting.jpg" alt="Pattachitra Art">
+      </div>
+      <div class="gallery-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Kalamkari_art.jpg" alt="Kalamkari Art">
+      </div>
+      <div class="gallery-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Warli_tribal_art_India.jpg" alt="Warli Tribal Art">
+      </div>
+    </div>
+  </section>
+
+  <section id="team">
+    <h2>Meet Our Team</h2>
+    <p>Passionate individuals behind the preservation and promotion of Indian heritage:</p>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="https://via.placeholder.com/300x200" alt="Founder">
+        <h3>Anita Devi</h3>
+        <p>Founder & Cultural Advisor</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/300x200" alt="Co-Founder">
+        <h3>Mansi Malik</h3>
+        <p>Co-Founder & Research Director</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/300x200" alt="Designer">
+        <h3>Ananya Desai</h3>
+        <p>Visual Designer & Media Head</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pramud">
+    <h2>PRAMUD: Miniature Art Research Initiative</h2>
+    <p>PRAMUD is our dedicated project focused on exploring the intricate world of Indian miniature paintings. Through archival research, digital documentation, and academic publications, this initiative bridges ancient art with contemporary scholarship.</p>
+  </section>
+
+  <section class="newsletter">
+    <h3>Stay Updated</h3>
+    <input type="email" placeholder="Enter your email">
+    <button>Subscribe</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: 8287875735<br>📧 Email: aryavratakaladharohar@gmail.com</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aryavarta Kala Dharohar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
